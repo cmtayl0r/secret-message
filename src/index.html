@@ -8,6 +8,28 @@
         <script type="module" src="scripts/index.js"></script>
     </head>
     <body>
-        <h1>Secret Message Share</h1>
+        <div class="row">
+            <div class="col s8 offset-s2">
+                <div id="message-form" class="card-panel">
+                    <form action="">
+                        <label for="">Enter a Secret Message</label>
+                        <input
+                            type="text"
+                            name=""
+                            id="message-input"
+                            placeholder="Your message"
+                        />
+                        <button class="btn">Create link</button>
+                    </form>
+                </div>
+                <!--  -->
+                <div id="link-form" class="card-panel hide">
+                    <div>
+                        Share this link with a friend
+                        <input type="text" id="link-input" />
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
