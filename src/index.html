@@ -4,12 +4,25 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Secret Message</title>
+        <link
+            rel="shortcut icon"
+            href="/src/assets/favicon.png"
+            type="image/x-icon"
+        />
         <link rel="stylesheet" href="styles/main.css" />
         <script type="module" src="scripts/index.js"></script>
     </head>
     <body>
         <div class="row">
             <div class="col s8 offset-s2">
+                <div id="message-show" class="card-panel hide">
+                    <h2></h2>
+                    <div>
+                        <a href="./index.html"
+                            >Create your own Secret Message</a
+                        >
+                    </div>
+                </div>
                 <div id="message-form" class="card-panel">
                     <form action="">
                         <label for="">Enter a Secret Message</label>

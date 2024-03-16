@@ -1,6 +1,9 @@
 body {
     background-color: wheat;
 }
+h2 {
+    margin-top: 0;
+}
 
 .row {
     margin-top: 25vh;
